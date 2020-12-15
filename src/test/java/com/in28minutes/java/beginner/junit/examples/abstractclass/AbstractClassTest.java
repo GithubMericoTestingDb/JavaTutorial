@@ -38,4 +38,10 @@ public class AbstractClassTest {
 		assertEquals("BOW BOW", dog.bark());
 	}
 
+	@Test
+	public void abstractClassExample2() {
+		Dog dog = new Dog();
+		assertEquals("Bark Bark", dog.bark());
+	}
+
 }
